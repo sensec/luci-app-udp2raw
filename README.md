@@ -1,2 +1,2 @@
 # luci-app-udp2raw
-适用于 OpenWRT/LEDE 的 udp2raw-tunnel LuCI 控制界面
+适用于 OpenWRT/LEDE 的 [udp2raw-tunnel](https://github.com/wangyu-/udp2raw-tunnel) LuCI 控制界面
