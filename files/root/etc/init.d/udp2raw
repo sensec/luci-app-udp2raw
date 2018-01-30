@@ -67,6 +67,7 @@ create_config() {
 	[ -n "$lower_level" ] && echo "--lower-level ${lower_level}" >> $config_file
 	[ -n "$source_ip" ] && echo "--source-ip ${source_ip}" >> $config_file
 	[ -n "$source_port" ] && echo "--source-port ${source_port}" >> $config_file
+	echo "--retry-on-error" >> $config_file
 
 	[ -n "$log_level" ] && echo "--log-level ${log_level}" >> $config_file
 	echo "--disable-color" >> $config_file
